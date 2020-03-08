@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}
+    .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+    }
+    
+    body {
+    min-height: calc(100vh);
+    position: relative;
+    }
+    
+   
+  
+    .slider {
+    background-image: url('/css/images/poster.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 0;
+    height: 200px;
+    position: relative;
+    }
+
+
+    .title{
+        color: black;
+        font-weight: lighter;
+        opacity: 0.65;
+    }
+
+    .three-columns-container {
+        display: flex;
+        flex-wrap: wrap;
+        color: black;
+        opacity: 0.65;
+    }
+        
+    .card-item {
+        flex-basis: 33.33%;
+    }
+        
+    .card-item + .card-item{
+        padding-left: 10px;
+    }
+
+    .card-item img{
+        height: 40px;
+        margin-bottom: 20px;
+        margin-top:20px ;
+    } 
+    
+    .card-item h2{
+        margin-bottom: 20px;
+    }
+    
+    .header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    }
+    
+    .inner_header{
+    max-width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    flex: 1;
+    background-color:white;
+    }
+    
+    .logo_container{
+    height: 100%;
+    display:flex;
+    float: left;
+    padding-left: 20px;
+    }
+    
+    .logo_container img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 20px;
+    padding-right: 40px;
+    }
+    
+    .navigation{
+    height: 100%;
+    }
+    
+    .navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    }
+    
+    .navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    }
+    
+    .search-box {
+    border-radius: 40px;
+    padding: 15px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    }
+    
+    .search-box__input {
+    position: relative;
+    max-width: 200px; /* same as input */
+    }
+    
+    .search-txt{
+    background-color: lightgray;
+    border: none;
+    outline: none;
+    height: 23px;
+    width: 200px;
+    border-radius: 50px;
+    padding: 0 10px;
+    }
+    
+    .search-btn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    }
+    
+    .search-btn img {
+    height: 12px;
+    width: auto;
+    }
+    .container button{
+        width: 200px;
+        height: 20px;
+        border-radius: 40px;
+        background-color: orange;
+        margin-top: 20px;
+        color: white;
+    }
+
+    .bottom__page{
+        margin-top: 40px;
+        background-image: url('css/images/paralax.jpg');
+        padding: 200px 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;        
+    }
+
+    .bottom_text h3{
+        position: relative;
+        bottom: 300px;
+    }
+
+    .mapouter {
+        position: relative;
+        text-align: right;
+        bottom: 0;
+        height: 300px;
+        width: 100%;
+    }
+
+    .gmap_canvas iframe{
+        width: 100%;
+        height: 500px;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 300px;
+        width: 100%;
+    }
+   
+    .footer {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+    }
+
+    .footer ul {
+        display: flex;
+        padding-left: 220px;
+    }
+    
+    .footer li {
+        list-style: none;
+    }        
+     
+    .footer li + li {
+        background: #cce;
+        margin-left: 10px;
+        list-style: none;
+    }
+    
+    .inner__footer{
+            max-width: 1000px;
+            height: 100%;
+            display: flex;
+            margin: 0 auto;
+            position: relative;
+            padding-top: 20px;
+    }
+    
+    .footer__lista li a img{
+            height: 20px;
+    }
+
+    .footer__lista{
+        position: absolute;
+        right: 0 ;
+       
+    }
+    
+    .inner__footer span{
+          opacity: 0.6;
+          color:black;
+    }
+
+    .inner__footer span a{
+         color: orange;
+    }      
